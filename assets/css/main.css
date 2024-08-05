@@ -1937,3 +1937,34 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+.container1 {
+  display: flex;         /* Arrange boxes horizontally */
+  justify-content: center; /* Center boxes horizontally within the container */
+  padding: 20px;
+  flex-wrap: wrap;       /* Allow wrapping to the next line if needed */
+}
+
+/* Styling for individual boxes */
+.box {
+  height: 220px;
+  width: 400px;           /* Width of the box */
+  padding: 20px;          /* Padding inside the box */
+  margin: 10px;           /* Margin around each box */
+  border: 1px solid #135e57; /* Border around the box */
+  border-radius: 5px;     /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for a slight 3D effect */
+  background-color: #d0dadcbc; /* Light background color */
+  text-align: center;     /* Center align text inside the box */
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
