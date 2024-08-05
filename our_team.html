@@ -49,12 +49,7 @@
         <ul>
           <li><a href="index.html#hero">Home</a></li>
           
-          <li><a href="signin.html">Sign in</a></li>
-          <li><a href="signup.html">Signup</a></li>
-         
-           
-          
-        </ul>
+          </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
@@ -63,112 +58,105 @@
   </header>
 
   <main class="main">
+    <section id="testimonials" class="testimonials section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Meet our team</h2>
+          <p>The developers who work behind this app</p>
+        </div><!-- End Section Title -->
+  
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+  
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 1,
+                    "spaceBetween": 40
+                  },
+                  "1200": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 1
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper">
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+ui/ux developer, front-end developer                  </p>
+                  <div class="profile mt-auto">
+                    <img src="assets/img/testimonial/Hareeshma.jpg" class="testimonial-img" alt="">
+                    <h3>Hareeshma.S</h3>
+                    <h4>Designer</h4>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+  
+              
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    Back-end developer
+                  </p>
+                  <div class="profile mt-auto">
+                    <img src="assets/img/testimonial/Akshay.jpg" class="testimonial-img" alt="">
+                    <h3>Akshay.T</h3>
+                    <h4>Project manager</h4>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+  
+              
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    Data analysis/Research
+                  </p>
+                  <div class="profile mt-auto">
+                    <img src="assets/img/testimonial/Athul.jpg" class="testimonial-img" alt="">
+                    <h3>Athul.K</h3>
+                    <h4>Developer</h4>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+  
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+  
+        </div>
+  
+      </section><!-- /Testimonials Section -->
 
    
 
-    <section id="hero" class="hero section">
-      <div class="hero-bg">
-        <img src="assets/img/hero-bg-light.jpg" alt="">
-      </div>
-      <div class="container text-center">
-        <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 data-aos="fade-up">Welcome to <span>Legal adviser</span></h1>
-          <br>
-          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#about" class="btn-get-started">Get Started</a>
-           
-          
-      </div>
-
-    </section><!-- /Hero Section -->
-    <section id="services" class="services section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-       
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row g-5">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <i class="bi bi-search icon"></i>
-              <div>
-                <h3>Legal Research:</h3>
-                <p>AI-driven research to find relevant case laws, statutes, and legal precedents.
-                  Summarizing and highlighting key points from legal research.</p>
-                
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-orange position-relative">
-              <i class="bi bi-chat-square-text icon"></i>
-              <div>
-                <h3>Customizable Reporting:</h3>
-                <p>Generating reports on legal matters, case progress, and compliance status.</p>
-                
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item item-teal position-relative">
-              <i class="bi bi-arrows-move icon"></i>
-              <div>
-                <h3>Risk Management:</h3>
-                <p>Advise on risk management strategies to minimize legal exposure and potential liabilities.</p>
-                
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item item-red position-relative">
-              <i class="bi bi-person-vcard icon"></i>
-              <div>
-                <h3>Legal Advice:</h3>
-                <p>Providing preliminary legal advice based on input from users.
-                  Answering common legal questions and providing explanations of legal terms.</p>
-                
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item item-indigo position-relative">
-              <i class="bi bi-calendar4-week icon"></i>
-              <div>
-                <h3>Compliance Monitoring:</h3>
-                <p>Monitor compliance with regulatory requirements and provide updates on changes in laws and regulations that may affect the client.</p>
-                
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item item-pink position-relative">
-              <i class=" bi bi-house-heart icon"></i>
-              <div>
-                <h3>Insurance Compliance
-                </h3>
-                <p>State Requirements: Information on minimum insurance requirements and help ensuring compliance.</p>
-                <p>Claim Disputes: Support in resolving disputes with insurance companies, understanding coverage, and navigating the claims process.</p>
-                
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
+   
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
