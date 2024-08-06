@@ -1085,7 +1085,7 @@ section,
 }
 
 .about .about-images img {
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -1971,4 +1971,15 @@ p {
 .about1{
   font-size: large;
   line-height: 200%;
+}
+.about .about-images {
+  /* Ensure the images align to the right */
+  text-align: right;
+}
+
+.about .about-images img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
