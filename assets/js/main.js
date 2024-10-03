@@ -31,6 +31,7 @@
     document.querySelector('body').classList.toggle('mobile-nav-active');
     mobileNavToggleBtn.classList.toggle('bi-list');
     mobileNavToggleBtn.classList.toggle('bi-x');
+    console.log("Mobile navigation toggled"); // Debugging line
   }
   mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
 
